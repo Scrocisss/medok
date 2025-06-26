@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;700&display=swap');
+
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Oxanium', cursive;
+    margin: 0;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(circle at center, #1a1a1a 0%, #0d0d0d 100%);
+}
+
+.container {
+    background-color: #1f1f1f;
+    padding: 2em;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #0ff;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #00ffff33;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #00ffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+code {
+    margin-bottom: 1em;
+    color: #00ffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+form input {
+    width: 95%;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #00ffff66;
+    border-radius: 8px;
+    background: #111;
+    color: #00ffff;
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    background-color: #00ffff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0ff;
+    transform: scale(1.05);
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+.error {
+    margin-top: 1em;
+    color: #ff4d4d;
+    text-align: center;
+}
